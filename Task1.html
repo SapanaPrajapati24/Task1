@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1>Output is in console</h1>
+<script type="text/javascript">
+	
+var myString = "hello there , how are you";
+
+	console.log("Remove Space")
+
+	console.log("Before String ="+myString);
+   
+                var newString = "";
+                for (let i of myString) {
+                if (i != " ") 
+                {
+                   newString += i;
+                }
+               }
+               console.log("After Remove Space ="+newString);
+
+
+
+ 		//replace name 
+        console.log("Replce Name ")
+        
+                var myString1="hello there , how are you";
+                console.log(myString1);  
+
+                var newstr1=myString1.replace("there" , "sapana");
+                console.log(newstr1) ; 
+
+
+
+
+
+          //find index  
+
+       console.log("Find Index");
+        
+         
+         
+       var myString2 = "hello there , how are you";
+       var Newstr = "";
+       var count=0;
+      
+		   for(let x of myString2){
+           if(x=="a") {
+              console.log("Index of are is : " +count);
+              break;  
+           }
+        count+=1;
+     }
+
+      
+
+          // concate abc
+      		console.log("Concate abc");
+           
+            var myString3 = "hello there , how are you";
+            console.log(myString3);
+            console.log(myString3 + " " +"abc");  
+                      
+    
+
+</script>
+</body>
+</html>
